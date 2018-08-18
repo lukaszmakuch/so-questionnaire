@@ -6,7 +6,7 @@ To illustrate how __transitions may be implemented without using any external st
 ![The Rosmaro Editor](graph.png?raw=true)
 The `graph.png` file is automatically generated.
 
-As soon as it grows bigger, __subgraphs may be used to reduce the complexity of the graph__.
+As soon as it grows bigger, __subgraphs may be used to reduce the complexity of the graph__. Context (the Rosmaro name for any external state) is used only to store the answers, but __the stored answers are never inspected using conditional statements/expressions__.
 
 In order to run this example, clone it and run the following commands:
 ```
