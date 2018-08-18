@@ -1,0 +1,19 @@
+{
+  "name": "rosmaro-questionnaire",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node -e \"var r = require('repl').start('$ '); var q = require('./'); r.context.question = q.question; r.context.answer = q.answer; r.context.answers = q.answers; r.context.back = q.back;\""
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-syntax-object-rest-spread": "^6.13.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "rosmaro": "^0.8.1",
+    "rosmaro-binding-utils": "0.0.5"
+  }
+}
