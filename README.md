@@ -8,12 +8,14 @@ The `graph.png` file is automatically generated.
 
 As soon as it grows bigger, __subgraphs may be used to reduce the complexity of the graph__. Context (the Rosmaro name for any external state) is used only to store the answers, but __the stored answers are never inspected using conditional statements/expressions__.
 
-In order to run this example, clone it and run the following commands:
+In order to run this example, type the following commands in your terminal:
 ```
-$ npm i
-$ npm start
+git clone https://github.com/lukaszmakuch/so-questionnaire.git
+cd so-questionnaire/
+npm i
+npm start
 ```
-It'll start a REPL with the following global functions: `question`, `answer`, `answers`, `back`. Here's how it works:
+It'll start a REPL with the a couple of extra global functions: `question`, `answer`, `answers`, `back`. Here's how it works:
 ```javascript
 $ question()
 'Q1'
